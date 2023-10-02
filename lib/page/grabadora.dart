@@ -221,7 +221,7 @@ _Fn? getPlaybackFn(Audio audioToPlay) {
     final List<dynamic> audio = audioListProvider.getaudioList;
 
     Widget makeBody() {
-      return Column(
+      return ListView(
         children: [
           Container(
             margin: const EdgeInsets.all(3),
