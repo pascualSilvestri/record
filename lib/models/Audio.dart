@@ -1,8 +1,11 @@
 
 
-class Audio{
-  final String ?name;
+class Audio {
+  final String? name;
   final String url;
+  final List<Audio> _audio = [];
 
-  Audio({ this.name, required this.url});
+  Audio({this.name, required this.url});
+
+  List<Audio> get audio => _audio;
 }
